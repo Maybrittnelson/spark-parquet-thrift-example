@@ -303,3 +303,4 @@ Licensed under the Apache Software License 2.0.
 [rdd]: http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.RDD
 [sbt-thrift]: https://github.com/bigtoast/sbt-thrift
 [sbt-assembly]: https://github.com/sbt/sbt-assembly
+
