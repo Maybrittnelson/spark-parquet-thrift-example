@@ -118,8 +118,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <fork>true</fork>
                     <verbose>true</verbose>
                     <encoding>UTF-8</encoding>
@@ -135,7 +135,7 @@
                 <artifactId>scala-maven-plugin</artifactId>
                 <version>3.2.2</version>
                 <configuration>
-                    <scalaCompatVersion>2.10</scalaCompatVersion>
+                    <scalaCompatVersion>2.11</scalaCompatVersion>
                 </configuration>
                 <executions>
                     <execution>
