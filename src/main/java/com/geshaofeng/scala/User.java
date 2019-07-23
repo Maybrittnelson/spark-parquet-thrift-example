@@ -1,6 +1,7 @@
-package com.geshaofeng.parquet;
+package com.geshaofeng.scala;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 public class User {
@@ -18,7 +19,9 @@ public class User {
         users.add(new User("Tom", 19));
         users.add(new User("Peter", 17));
         users.add(new User("Mark", 20));
+        HashSet<User> users1 = new HashSet<>(users);
         return users;
+
     }
 
 }

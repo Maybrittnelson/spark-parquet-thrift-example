@@ -1,4 +1,4 @@
-package com.geshaofeng.parquet
+package com.geshaofeng.scala
 
 object Aop {
 

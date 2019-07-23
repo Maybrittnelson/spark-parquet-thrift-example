@@ -15,6 +15,7 @@ object SharedVariables {
     val broadVar = sc.broadcast(targetType)
 
     val disData = sc.parallelize(Array(2))
+
     disData.filter(it => broadVar.value.contains(it)).map(println(_)).count
     targetType -= 2
     //broadcast不可变吗，但是这里不会打印2

@@ -1,4 +1,4 @@
-package com.geshaofeng.parquet
+package com.geshaofeng.scala
 
 import org.apache.hadoop.mapreduce.Job
 import org.apache.spark.{SparkConf, SparkContext}
@@ -25,7 +25,7 @@ object SparkParquetThriftApp {
     println(sampleData.map("  - " + _).mkString("\n"))
 
     val job = new Job()
-    val parquetStore = "hdfs://localhost:8020/sample_store"
+    val parquetStore = "hdfs://localhost:8020/sample_store1"
     println("Writing sample data to Parquet.")
     println("  - ParquetStore: " + parquetStore)
     ParquetThriftOutputFormat.setThriftClass(job, classOf[SampleThriftObject])

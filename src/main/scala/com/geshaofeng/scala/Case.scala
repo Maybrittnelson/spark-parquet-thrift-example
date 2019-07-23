@@ -1,4 +1,4 @@
-package com.geshaofeng.parquet
+package com.geshaofeng.scala
 
 object Case {
 
@@ -14,10 +14,21 @@ object Case {
     print(oneList, anotherList)
 
     //case match case
-    print("1" match {
+    println("1" match {
       case "1" => "yes"
       case _ => "no"
     })
+
+    val func = (i: Int) => {
+      if ((i & 1) > 0) {
+        println("hi"+ i)
+      } else if((i & 2) > 0) {
+        println("hello"+ i)
+      } else{
+        println("oh no")
+      }
+    }
+    func(3)
   }
 
   def desc(t: String): String = t match {
