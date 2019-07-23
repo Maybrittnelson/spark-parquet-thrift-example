@@ -1,4 +1,4 @@
-package com.geshaofeng.spark.sv
+package com.geshaofeng.spark.rdd.sv
 
 import org.apache.spark.{SparkConf, SparkContext}
 import scala.collection.mutable
